@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref, watch } from "vue";
+import resume from "@/public/vienpham-resume.pdf";
 
 const isShowDetail = ref(false);
 
@@ -59,6 +60,13 @@ watch(
                                 size="24"
                             />
                         </NuxtLink>
+                        <a target="_blank" :href="resume">
+                            <Icon
+                                name="uil:file-alt"
+                                style="color: black"
+                                size="24"
+                            />
+                        </a>
                     </div>
                 </div>
             </div>
