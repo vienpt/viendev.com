@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vien The Pham - Frontend Lead</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap');
+
+      body {
+        font-family: 'Inter', sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .mono {
+        font-family: 'JetBrains Mono', monospace;
+      }
+
+      /* Print styles to ensure it looks good when saved as PDF */
+      @media print {
+        body {
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+        }
+        .no-print {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body
+    class="bg-gray-50 text-gray-900 selection:bg-blue-100 selection:text-blue-900"
+  >
+    <div class="max-w-4xl mx-auto p-8 md:p-16 bg-white shadow-sm min-h-screen">
+      <header class="mb-12">
+        <div
+          class="flex flex-col md:flex-row justify-between items-start md:items-end"
+        >
+          <div>
+            <h1
+              class="text-5xl font-extrabold text-gray-900 tracking-tight mb-2"
+            >
+              Vien The Pham
+            </h1>
+            <p class="text-xl text-blue-700 font-semibold tracking-wide">
+              Frontend Lead
+            </p>
+          </div>
+
+          <!-- <div class="hidden md:block text-right">
+            <span
+              class="inline-flex items-center rounded-md bg-blue-50 px-2 py-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10"
+              >Open to Work</span
+            >
+          </div> -->
+        </div>
+
+        <div
+          class="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-gray-600 font-medium"
+        >
+          <a href="mailto:pthevien@gmail.com" class="hover:text-blue-700 hover:underline underline-offset-4 transition-colors"><span class="__cf_email__" data-cfemail="e8989c808d9e818d86a88f85898184c68b8785">pthevien@gmail.com</span></a
+          >
+          <!-- <span class="text-gray-300">|</span> -->
+          <!-- <a
+            href="https://viendev-com.pages.dev"
+            target="_blank"
+            class="hover:text-blue-700 hover:underline underline-offset-4 transition-colors"
+            >viendev-com.pages.dev</a
+          > -->
+          <span class="text-gray-300">|</span>
+          <a
+            href="https://github.com/vienpt"
+            target="_blank"
+            class="hover:text-blue-700 hover:underline underline-offset-4 transition-colors"
+            >github.com/vienpt</a
+          >
+          <span class="text-gray-300">|</span>
+          <a
+            href="https://linkedin.com/in/vien-pham"
+            target="_blank"
+            class="hover:text-blue-700 hover:underline underline-offset-4 transition-colors"
+            >linkedin.com/in/vien-pham</a
+          >
+        </div>
+      </header>
+
+      <section class="mb-14">
+        <div class="flex items-center gap-4 mb-8">
+          <h2 class="text-2xl font-bold uppercase tracking-wide text-gray-900">
+            Work Experience
+          </h2>
+          <div class="h-px bg-gray-200 flex-grow"></div>
+        </div>
+
+        <div class="space-y-10">
+          <div class="relative border-l-2 border-blue-600 pl-8 ml-2">
+            <div
+              class="absolute -left-[9px] top-0 h-4 w-4 rounded-full border-4 border-white bg-blue-600"
+            ></div>
+
+            <div
+              class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-2"
+            >
+              <h3 class="text-xl font-bold text-gray-900">Vietnam Silicon</h3>
+              <span
+                class="text-sm font-medium text-gray-500 bg-gray-100 px-2 py-1 rounded"
+                >Feb 2025 - Present</span
+              >
+            </div>
+            <p class="text-blue-700 font-semibold mb-4 text-lg">
+              Senior Frontend Developer & Team Lead
+            </p>
+            <ul class="space-y-3 text-gray-700 leading-relaxed">
+              <li class="flex items-start">
+                <span class="mr-2 text-blue-500 mt-1.5">•</span>
+                <span
+                  >Lead a team of 5 frontend developers in architecting and delivering an Agricultural Durian Transformation platform serving 20+ team members across multiple projects.</span
+                >
+              </li>
+              <li class="flex items-start">
+                <span class="mr-2 text-blue-500 mt-1.5">•</span>
+                <span
+                  >Drove architectural transformation from client-heavy SPA to React Server Components (RSC) paradigm, leveraging Next.js App Router's server-first rendering strategy, streaming SSR capabilities, and server/client component composition patterns to eliminate waterfall requests and optimize data colocation.</span
+                >
+              </li>
+              <li class="flex items-start">
+                <span class="mr-2 text-blue-500 mt-1.5">•</span>
+                <span
+                  >Designed and implemented monorepo infrastructure strategy, establishing shared component libraries, unified design system, consistent CI/CD workflows, and deployment patterns across multiple applications.</span
+                >
+              </li>
+              <li class="flex items-start">
+                <span class="mr-2 text-blue-500 mt-1.5">•</span>
+                <span
+                  >Established technical standards and best practices using Next.js 15 App Router, Material-UI v7. Conducted code reviews and mentored developers on RSC patterns and server/client boundary optimization.</span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="relative border-l-2 border-blue-600 pl-8 ml-2">
+            <div
+              class="absolute -left-[9px] top-0 h-4 w-4 rounded-full border-4 border-white bg-blue-600"
+            ></div>
+
+            <div
+              class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-2"
+            >
+              <h3 class="text-xl font-bold text-gray-900">CODELEAP</h3>
+              <span
+                class="text-sm font-medium text-gray-500 bg-gray-100 px-2 py-1 rounded"
+                >Oct 2023 - Dec 2024</span
+              >
+            </div>
+            <p class="text-blue-700 font-semibold mb-4 text-lg">
+              Senior Frontend Developer
+            </p>
+            <ul class="space-y-3 text-gray-700 leading-relaxed">
+              <li class="flex items-start">
+                <span class="mr-2 text-blue-500 mt-1.5">•</span>
+                <span
+                  >Led 2-member team in migrating EnBW's legacy AngularJS 1.x electricity management platform to modern React architecture, handling complex geospatial visualizations, filtering systems, and data-intensive table operations.</span
+                >
+              </li>
+              <li class="flex items-start">
+                <span class="mr-2 text-blue-500 mt-1.5">•</span>
+                <span
+                  >Architected advanced data table infrastructure using TanStack Table v8 with custom column virtualization, server-side sorting/filtering pipelines, and Jotai atoms for granular state management of 10k+ electricity meter records with map-table synchronization.</span
+                >
+              </li>
+              <li class="flex items-start">
+                <span class="mr-2 text-blue-500 mt-1.5">•</span>
+                <span
+                  >Developed home automation dashboard for Enode platform using Next.js 14 with React Server Components, exploring RSC patterns for IoT device data fetching, real-time energy monitoring, and smart home control interfaces.</span
+                >
+              </li>
+              <li class="flex items-start">
+                <span class="mr-2 text-blue-500 mt-1.5">•</span>
+                <span
+                  >Built recruitment platform features using Vue 3 Composition API, TypeScript, and Pinia for candidate pipeline management, and interview scheduling.</span
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="relative border-l-2 border-blue-600 pl-8 ml-2">
+            <div
+              class="absolute -left-[9px] top-0 h-4 w-4 rounded-full border-4 border-white bg-blue-600"
+            ></div>
+
+            <div
+              class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-2"
+            >
+              <h3 class="text-xl font-bold text-gray-900">Air360</h3>
+              <span
+                class="text-sm font-medium text-gray-500 bg-gray-100 px-2 py-1 rounded"
+                >Nov 2022 - Aug 2023</span
+              >
+            </div>
+            <p class="text-blue-700 font-semibold mb-4 text-lg">
+              Senior Frontend Developer
+            </p>
+            <ul class="space-y-3 text-gray-700 leading-relaxed">
+              <li class="flex items-start">
+                <span class="mr-2 text-blue-500 mt-1.5">•</span>
+                <span
+                  >Developed and optimized website analytics features using Vue
+                  3, Nuxt Bridge, and Pinia, integrated with CubeJS.</span
+                >
+              </li>
+              <li class="flex items-start">
+                <span class="mr-2 text-blue-500 mt-1.5">•</span>
+                <span
+                  >Implemented Chrome extension dashboard utilizing Vue 3 and
+                  Vite for user monitoring and analytics.</span
+                >
+              </li>
+              <li class="flex items-start">
+                <span class="mr-2 text-blue-500 mt-1.5">•</span>
+                <span
+                  >Implemented end-to-end testing framework using WebdriverIO
+                  for improved application reliability.</span
+                >
+              </li>
+              <li class="flex items-start">
+                <span class="mr-2 text-blue-500 mt-1.5">•</span>
+                <span
+                  >Participated in SCRUM ceremonies with weekly and daily
+                  planning meetings.</span
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="relative border-l-2 border-blue-600 pl-8 ml-2">
+            <div
+              class="absolute -left-[9px] top-0 h-4 w-4 rounded-full border-4 border-white bg-blue-600"
+            ></div>
+
+            <div
+              class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-2"
+            >
+              <h3 class="text-xl font-bold text-gray-900">Archway Factory</h3>
+              <span
+                class="text-sm font-medium text-gray-500 bg-gray-100 px-2 py-1 rounded"
+                >April 2016 - Oct 2022</span
+              >
+            </div>
+            <p class="text-blue-700 font-semibold mb-4 text-lg">Developer</p>
+            <ul class="space-y-3 text-gray-700 leading-relaxed">
+              <li class="flex items-start">
+                <span class="mr-2 text-blue-500 mt-1.5">•</span>
+                <span
+                  >Architected full-stack StaffServices application using Vue/Nuxt frontend with SpringBoot RESTful APIs and Azure Cloud infrastructure for deployment and hosting.</span
+                >
+              </li>
+              <li class="flex items-start">
+                <span class="mr-2 text-blue-500 mt-1.5">•</span>
+                <span
+                  >Developed prototype, PoC, and MVP single-page applications with Vue2/Nuxt2, integrating SpringBoot and ASP.NET Core REST APIs with Azure Functions for serverless architecture.</span
+                >
+              </li>
+              <li class="flex items-start">
+                <span class="mr-2 text-blue-500 mt-1.5">•</span>
+                <span
+                  >Implemented secure authentication and authorization using OAuth2.0 workflow for third-party integrations including Keycloak, Zoho CRM, and Azure AD with reusable Vue components.</span
+                >
+              </li>
+              <li class="flex items-start">
+                <span class="mr-2 text-blue-500 mt-1.5">•</span>
+                <span
+                  >Architected and deployed JAMStack websites using modern static site generators (VuePress, VitePress, Nuxt, Jekyll) with deployments on Netlify and Vercel platforms.</span
+                >
+              </li>
+              <li class="flex items-start">
+                <span class="mr-2 text-blue-500 mt-1.5">•</span>
+                <span
+                  >Established CI/CD pipelines using GitLab, GitHub Actions, and Azure DevOps with Kubernetes deployments configured via Docker, Helm, and Ingress for microservices architecture on Azure/GCP Cloud.</span
+                >
+              </li>
+              <li class="flex items-start">
+                <span class="mr-2 text-blue-500 mt-1.5">•</span>
+                <span
+                  >Implemented comprehensive testing strategy using JUnit and Cypress for unit, integration, and end-to-end testing, ensuring application reliability and quality.</span
+                >
+              </li>
+              <li class="flex items-start">
+                <span class="mr-2 text-blue-500 mt-1.5">•</span>
+                <span
+                  >Actively participated in Agile/Scrum ceremonies, collaborating with cross-functional teams to prioritize features, manage sprints, and deliver projects using Jira/Confluence for efficient project management.</span
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="relative border-l-2 border-blue-600 pl-8 ml-2">
+            <div
+              class="absolute -left-[9px] top-0 h-4 w-4 rounded-full border-4 border-white bg-blue-600"
+            ></div>
+
+            <div
+              class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-2"
+            >
+              <h3 class="text-xl font-bold text-gray-900">Intec Vietnam</h3>
+              <span
+                class="text-sm font-medium text-gray-500 bg-gray-100 px-2 py-1 rounded"
+                >Sep 2013 - 2015</span
+              >
+            </div>
+            <p class="text-blue-700 font-semibold mb-4 text-lg">Developer</p>
+            <p class="text-gray-700 leading-relaxed">
+              Developed internal source projects using VB6, ASP.Net MVC, and
+              Java for learning and testing purposes.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--<section class="mb-14 break-inside-avoid">
+        <div class="flex items-center gap-4 mb-8">
+          <h2 class="text-2xl font-bold uppercase tracking-wide text-gray-900">
+            Skills
+          </h2>
+          <div class="h-px bg-gray-200 flex-grow"></div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-8 gap-x-12">
+          <div>
+            <h3
+              class="font-bold text-gray-900 mb-2 border-b border-gray-100 pb-1 inline-block"
+            >
+              Programming Languages
+            </h3>
+            <p class="text-gray-700">
+              JavaScript, TypeScript, C#, Java, GraphQL, HTML/CSS, SQL
+            </p>
+          </div>
+          <div>
+            <h3
+              class="font-bold text-gray-900 mb-2 border-b border-gray-100 pb-1 inline-block"
+            >
+              Databases
+            </h3>
+            <p class="text-gray-700">Redis, PostgreSQL</p>
+          </div>
+          <div>
+            <h3
+              class="font-bold text-gray-900 mb-2 border-b border-gray-100 pb-1 inline-block"
+            >
+              Frameworks/Libraries
+            </h3>
+            <p class="text-gray-700">
+              React.js, Next.js, Vue, Nuxt, .Net Core, SpringBoot
+            </p>
+          </div>
+          <div>
+            <h3
+              class="font-bold text-gray-900 mb-2 border-b border-gray-100 pb-1 inline-block"
+            >
+              Tools & DevOps
+            </h3>
+            <p class="text-gray-700">Docker, Kubernetes, GitOps, CI/CD</p>
+          </div>
+          <div>
+            <h3
+              class="font-bold text-gray-900 mb-2 border-b border-gray-100 pb-1 inline-block"
+            >
+              Platforms
+            </h3>
+            <p class="text-gray-700">
+              GitHub, Azure, Amazon Web Services, Google Cloud Platform
+            </p>
+          </div>
+          <div>
+            <h3
+              class="font-bold text-gray-900 mb-2 border-b border-gray-100 pb-1 inline-block"
+            >
+              Languages
+            </h3>
+            <p class="text-gray-700">
+              English (B2), Japanese (N4), Vietnamese (Native)
+            </p>
+          </div>
+        </div>
+      </section>-->
+      <section class="mb-14 break-inside-avoid">
+        <div class="flex items-center gap-4 mb-8">
+          <h2 class="text-2xl font-bold uppercase tracking-wide text-gray-900">
+            Skills & Expertise
+          </h2>
+          <div class="h-px bg-gray-200 flex-grow"></div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-8 gap-x-12">
+          <div>
+            <h3
+              class="font-bold text-gray-900 mb-2 border-b border-gray-100 pb-1 inline-block"
+            >
+              Frontend Architecture
+            </h3>
+            <p class="text-gray-700 leading-relaxed">
+              <span class="font-semibold text-gray-900">Core:</span> React.js,
+              Next.js, Vue, Nuxt, TypeScript<br />
+              <span class="font-semibold text-gray-900">Ecosystem:</span>
+              Jotai/Zustand/Pinia, GraphQL, Tailwind CSS, HTML/CSS<br />
+              <span class="font-semibold text-gray-900">Testing:</span>
+              WebdriverIO, Cypress, Vitest
+            </p>
+          </div>
+
+          <div>
+            <h3
+              class="font-bold text-gray-900 mb-2 border-b border-gray-100 pb-1 inline-block"
+            >
+              Leadership & Strategy
+            </h3>
+            <p class="text-gray-700 leading-relaxed">
+              Tech Stack Migration, Legacy Modernization, System Architecture,
+              Agile/Scrum, CI/CD Strategy, Code Review & Mentorship
+            </p>
+          </div>
+
+          <div>
+            <h3
+              class="font-bold text-gray-900 mb-2 border-b border-gray-100 pb-1 inline-block"
+            >
+              Backend & Cloud Infrastructure
+            </h3>
+            <p class="text-gray-700 leading-relaxed">
+              <span class="font-semibold text-gray-900">Backend:</span> C# (.Net
+              Core), Java (SpringBoot), Node.js<br />
+              <span class="font-semibold text-gray-900">Cloud:</span> AWS,
+              Azure, Google Cloud Platform<br />
+              <span class="font-semibold text-gray-900">DevOps:</span> Docker,
+              Kubernetes, GitOps
+            </p>
+          </div>
+
+          <div>
+            <h3
+              class="font-bold text-gray-900 mb-2 border-b border-gray-100 pb-1 inline-block"
+            >
+              Data & Languages
+            </h3>
+            <p class="text-gray-700 leading-relaxed">
+              <span class="font-semibold text-gray-900">Data:</span> PostgreSQL,
+              Redis, SQL<br />
+              <span class="font-semibold text-gray-900">Languages:</span>
+              English (Professional), Japanese (N4), Vietnamese (Native)
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 break-inside-avoid">
+        <section>
+          <div class="flex items-center gap-4 mb-6">
+            <h2 class="text-xl font-bold uppercase tracking-wide text-gray-900">
+              Education
+            </h2>
+            <div class="h-px bg-gray-200 flex-grow"></div>
+          </div>
+
+          <div class="border-l-2 border-blue-600 pl-6 ml-2">
+            <h3 class="text-lg font-bold text-gray-900 mb-1">
+              University Of Science
+            </h3>
+            <p class="text-gray-500 mb-2 text-sm">
+              Ho Chi Minh, Vietnam • 2009 - 2013
+            </p>
+            <p class="text-gray-800 font-medium">
+              Bachelor of Science in Computer Science
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <div class="flex items-center gap-4 mb-6">
+            <h2 class="text-xl font-bold uppercase tracking-wide text-gray-900">
+              Interests
+            </h2>
+            <div class="h-px bg-gray-200 flex-grow"></div>
+          </div>
+
+          <p class="text-gray-700 leading-relaxed">
+            Open-source development, riding, chess, biking, traveling, hat and
